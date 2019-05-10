@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './header';
+import Header from './header.js';
 import Search from './search.js';
 import Map from './map.js';
 import superagent from 'superagent';
@@ -34,7 +34,6 @@ class App extends React.Component{
       location: data.body,
       latitude: data.body.latitude,
       longitude: data.body.longitude,
-      location: data.body
     })
   }
 
