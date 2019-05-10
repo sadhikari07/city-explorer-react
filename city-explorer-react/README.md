@@ -35,6 +35,9 @@ Actual time needed to complete:
 
 Massive shoutout to the TAs. 
 
+CSS highly inspired from 301D56's City explorer front end.
+website: file:///Users/sudadhik/codefellows/seattle-301d56/city-explorer-front-end/index.html
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
