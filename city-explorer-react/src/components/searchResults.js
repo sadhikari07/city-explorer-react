@@ -31,7 +31,7 @@ render(){
       <ul className = 'yelpResult'>
           <h3 className = 'resultTitle'>Results from the Yelp API</h3>
          {this.state.yelp.length>0 ? (this.state.yelp.map(element => <li> 
-         <p>{element.name}</p> <a href = {element.url}></a>
+          <a href = {element.url}><p>{element.name}</p></a>
           <p>The average rating is {element.rating} out of 5 and the average cost is {element.price} out of 4</p>
           <p><img className = 'yelpImage' src = {element.image_url}/></p> </li>)) : 'nothing'}
       </ul>
@@ -106,7 +106,7 @@ class MovieDB extends React.Component{
           <ul className = 'weatherResult'>
           <h3 className = 'resultTitle'>Results from the Dark Sky API</h3>
              {this.state.weather[0] ? (this.state.weather.map(element => <li>
-              <p>The forecast for {element.time} is: {element.forecast}</p> </li>)) : 'nothing'}
+              <p>The forecast for {element.time} is: {element.forecast}</p> </li>)) : 'The server is taking a nap for the day. Please visit us again tomorrow.'}
           </ul>
         </section>
       );
