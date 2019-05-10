@@ -1,9 +1,6 @@
 import React from 'react';
 
 class Map extends React.Component{
-  constructor(props) {
-    super(props);
-  }
 
   render(){
     if(this.props.latitude){  
