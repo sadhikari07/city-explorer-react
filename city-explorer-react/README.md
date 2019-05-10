@@ -1,4 +1,4 @@
-Number and name of feature: 
+Number and name of feature: Placeholder city-explorer
 
 Estimate of time needed to complete: 3hrs
 
@@ -9,10 +9,34 @@ Finish time: 2000
 Actual time needed to complete: 2hrs
 
 
+Number and name of feature: City explorer with API results
+
+Estimate of time needed to complete: 5hrs
+
+Start time: 1200
+
+Finish time: 1700 (next day with breaks)
+
+Actual time needed to complete: 9hrs
+
+
+Number and name of feature: SCSS
+
+Estimate of time needed to complete: 3hrs
+
+Start time: 1700
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 
-his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Massive shoutout to the TAs. 
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

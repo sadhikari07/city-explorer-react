@@ -41,22 +41,19 @@ class App extends React.Component{
   render(){
     return(
       <React.Fragment>
-        <Header/>
-        <p>{this.state.latitude}</p>
-        <p>{this.state.longitude}</p>
-        <p>{this.state.formattedAddress}</p>
-      <Search handleSearch = {this.handleSearch}/>
-      <Map 
-        searchQuery = {this.state.searchQuery}
-        latitude = {this.state.latitude}
-        longitude = {this.state.longitude}
-      />
-      <SearchResult
-        location = {this.state.location}
-        searchQuery = {this.state.searchQuery}
-        latitude = {this.state.latitude}
-        longitude = {this.state.longitude}
-      />
+        <Header />
+        <Search handleSearch = {this.handleSearch}/>
+        <Map 
+          searchQuery = {this.state.searchQuery}
+          latitude = {this.state.latitude}
+          longitude = {this.state.longitude}
+        />
+        <SearchResult 
+          location = {this.state.location}
+          searchQuery = {this.state.searchQuery}
+          latitude = {this.state.latitude}
+          longitude = {this.state.longitude}
+        />
     </React.Fragment>
     );
   }

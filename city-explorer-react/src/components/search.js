@@ -22,7 +22,7 @@ class Search extends React.Component{
     return(
       <form onSubmit={this.handleClick}>
         <input onChange = {this.handleChange} type = 'text' placeholder = 'search'></input>
-        <button onClick = {this.handleClick}>Search</button>
+        <button onClick = {this.handleClick}>Explore</button>
       </form>
     );
   }
